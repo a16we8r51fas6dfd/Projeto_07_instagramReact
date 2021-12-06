@@ -25,29 +25,29 @@ const sugestoes = [
 ]
 
 export default function Sidebar() {
-    return (
-      <div class="sidebar">
-        <Usuario image="/assets/img/catanacomics.svg" nome="Catana" username="catanacomics" />
-  
-        <div class="sugestoes">
-          <div class="titulo">
-            Sugestões para você
-            <div>Ver tudo</div>
-          </div>
+  return (
+    <div class="sidebar">
+      <Usuario image="/assets/img/catanacomics.svg" nome="Catana" username="catanacomics" />
 
-          {sugestoes.map((sugestao) => (
-            <Sugestao image={sugestao.image} nome={sugestao.nome} />
-          ))}
-          
+      <div class="sugestoes">
+        <div class="titulo">
+          Sugestões para você
+          <div>Ver tudo</div>
         </div>
-  
-        <div class="links">
-          Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
-        </div>
-  
-        <div class="copyright">
-          © 2021 INSTAGRAM DO FACEBOOK
-        </div>
+
+        {sugestoes.map((sugestao) => (
+          <Sugestao image={sugestao.image} nome={sugestao.nome} />
+        ))}
+        
       </div>
-    )
+
+      <div class="links">
+        Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
+      </div>
+
+      <div class="copyright">
+        © 2021 INSTAGRAM DO FACEBOOK
+      </div>
+    </div>
+  )
 }

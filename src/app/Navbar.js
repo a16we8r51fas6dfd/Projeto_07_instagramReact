@@ -6,16 +6,16 @@ import Icones from "../navbar/Icones"
 import IconesMobile from "../navbar/IconesMobile"
 
 export default function Navbar() {
-    return (
-      <div class="navbar">
-        <div class="container">
-          <Logo />
-          <LogoMobile />
-          <InstagramMobile />
-          <Pesquisa />
-          <Icones />
-          <IconesMobile />
-        </div>
+  return (
+    <div class="navbar">
+      <div class="container">
+        <Logo />
+        <LogoMobile />
+        <InstagramMobile />
+        <Pesquisa />
+        <Icones />
+        <IconesMobile />
       </div>
-    )
+    </div>
+  )
 }
