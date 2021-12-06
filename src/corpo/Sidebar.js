@@ -35,8 +35,8 @@ export default function Sidebar() {
             <div>Ver tudo</div>
           </div>
 
-          {sugestoes.map((s) => (
-            <Sugestao image={s.image} nome={s.nome} />
+          {sugestoes.map((sugestao) => (
+            <Sugestao image={sugestao.image} nome={sugestao.nome} />
           ))}
           
         </div>

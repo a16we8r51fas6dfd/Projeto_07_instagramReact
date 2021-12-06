@@ -1,6 +1,6 @@
 import Story from "./Story"
 
-const storie = [
+const stories = [
   {
     image: "../assets/img/9gag.svg",
     user: "9gag"
@@ -38,8 +38,8 @@ const storie = [
 export default function Stories() {
   return (
     <div class="stories">
-      {storie.map((s) => (
-        <Story image={s.image} user={s.user} />
+      {stories.map((storie) => (
+        <Story image={storie.image} user={storie.user} />
       ))}
 
       <div class="setinha">

@@ -1,6 +1,6 @@
 import Post from "./Post"
 
-const postContent = [
+const posts = [
   {
     userImage: "assets/img/meowed.svg",
     user: "meowed",
@@ -22,8 +22,8 @@ const postContent = [
 export default function Posts() {
   return (
     <div class="posts">  
-      {postContent.map((p) => (
-        <Post userImage={p.userImage} name={p.user} image={p.image} curtidasImage={p.curtidasImage} curtidoTexto={p.curtidoTexto} pessoasTexto={p.pessoasTexto} />
+      {posts.map((post) => (
+        <Post userImage={post.userImage} name={post.user} image={post.image} curtidasImage={post.curtidasImage} curtidoTexto={post.curtidoTexto} pessoasTexto={post.pessoasTexto} />
       ))}
     </div>
   )
