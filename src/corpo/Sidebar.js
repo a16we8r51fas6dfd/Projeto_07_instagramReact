@@ -27,7 +27,7 @@ const sugestoes = [
 export default function Sidebar() {
     return (
       <div class="sidebar">
-        <Usuario image="../assets/img/catanacomics.svg" nome="Catana" username="catanacomics" />
+        <Usuario image="/assets/img/catanacomics.svg" nome="Catana" username="catanacomics" />
   
         <div class="sugestoes">
           <div class="titulo">

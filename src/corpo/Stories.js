@@ -2,7 +2,7 @@ import Story from "./Story"
 
 const storie = [
   {
-    image: "assets/img/9gag.svg",
+    image: "../assets/img/9gag.svg",
     user: "9gag"
   },
   {
