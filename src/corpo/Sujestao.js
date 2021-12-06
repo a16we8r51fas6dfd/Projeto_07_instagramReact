@@ -1,4 +1,4 @@
-export default function Sugestao({ image, nome}) {
+export default function Sugestao({ image, nome }) {
     return (
       <div class="sugestao">
         <div class="usuario">

@@ -1,4 +1,5 @@
 import Sugestao from "./Sujestao"
+import Usuario from "./Usuario"
 
 const sugestoes = [
   {
@@ -26,13 +27,7 @@ const sugestoes = [
 export default function Sidebar() {
     return (
       <div class="sidebar">
-        <div class="usuario">
-          <img src="assets/img/catanacomics.svg" />
-          <div class="texto">
-            <strong>catanacomics</strong>
-            Catana
-          </div>
-        </div>
+        <Usuario image="assets/img/catanacomics.svg" nome="Catana" username="catanacomics" />
   
         <div class="sugestoes">
           <div class="titulo">
